@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jéssica Almeida | Serviços Digitais</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    background:url('https://raw.githubusercontent.com/dedejfalmieda/Fotos-/main/file_000000007b08720eb6002074640a721c.png');
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    color:white;
+}
+
+nav{
+    background:rgba(0,0,0,0.8);
+    text-align:center;
+    padding:20px;
+}
+
+nav a{
+    color:gold;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+header{
+    text-align:center;
+    padding:100px 20px;
+    background:rgba(0,0,0,0.6);
+}
+
+header h1{
+    font-size:50px;
+    color:gold;
+}
+
+header p{
+    margin:15px 0;
+    font-size:20px;
+}
+
+.botao{
+    background:gold;
+    color:black;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+    display:inline-block;
+}
+
+section{
+    background:rgba(0,0,0,0.7);
+    margin:20px;
+    padding:40px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.card{
+    background:white;
+    color:black;
+    width:250px;
+    padding:20px;
+    border-radius:10px;
+}
+
+.preco{
+    color:green;
+    font-size:22px;
+    font-weight:bold;
+    margin:10px 0;
+}
+
+footer{
+    background:black;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+<body>
+
+<nav>
+    <a href="#servicos">Serviços</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<header>
+    <h1>Jéssica Almeida</h1>
+    <p>Criação de Sites Profissionais</p>
+
+    <a class="botao"
+    href="https://wa.me/5532991988933?text=Olá%20Jéssica,%20quero%20fazer%20um%20site."
+    target="_blank">
+    Solicitar Orçamento
+    </a>
+</header>
+
+<section id="servicos">
+    <h2>Meus Serviços</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Site Básico</h3>
+            <p>Ideal para negócios</p>
+            <div class="preco">R$150</div>
+            <a class="botao"
+            href="https://wa.me/5532991988933?text=Olá%20Jéssica,%20quero%20o%20Site%20Básico."
+            target="_blank">
+            Comprar
+            </a>
+        </div>
+
+        <div class="card">
+            <h3>Loja Virtual</h3>
+            <p>Venda produtos online</p>
+            <div class="preco">R$300</div>
+            <a class="botao"
+            href="https://wa.me/5532991988933?text=Olá%20Jéssica,%20quero%20uma%20Loja%20Virtual."
+            target="_blank">
+            Comprar
+            </a>
+        </div>
+
+        <div class="card">
+            <h3>Site para Eventos</h3>
+            <p>Casamentos e aniversários</p>
+            <div class="preco">R$120</div>
+            <a class="botao"
+            href="https://wa.me/5532991988933?text=Olá%20Jéssica,%20quero%20um%20site%20para%20evento."
+            target="_blank">
+            Comprar
+            </a>
+        </div>
+
+        <div class="card">
+            <h3>Cartaz Digital</h3>
+            <p>Divulgação online</p>
+            <div class="preco">R$30</div>
+            <a class="botao"
+            href="https://wa.me/5532991988933?text=Olá%20Jéssica,%20quero%20um%20cartaz%20digital."
+            target="_blank">
+            Comprar
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<section id="projetos">
+    <h2>Meus Projetos</h2>
+    <p>Veja meu portfólio:</p>
+
+    <a class="botao"
+    href="https://github.com/dedejfalmieda"
+    target="_blank">
+    Meu GitHub
+    </a>
+</section>
+
+<section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>
+        Sou Jéssica Almeida de Oliveira, formada em Análise e Desenvolvimento de Sistemas.
+        Crio sites para negócios, eventos e lojas virtuais.
+    </p>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <p>WhatsApp: 32 99198-8933</p>
+    <p>GitHub: github.com/dedejfalmieda</p>
+</section>
+
+<footer>
+    <p>© 2026 Jéssica Almeida</p>
+</footer>
+
+</body>
+</html>
